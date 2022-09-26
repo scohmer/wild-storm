@@ -18,7 +18,7 @@ class NumberLabCore(object):
         elif start == "dec":
             output.append(rNum)
         elif start == "hex":
-            output.append(hex(rNum))
+            output.append("0x" + "{:02x}".format(rNum).upper())
             
         # Append expected conversion value to output
         if end == "bin":
@@ -26,7 +26,7 @@ class NumberLabCore(object):
         elif end == "dec":
             output.append(rNum)
         elif end == "hex":
-            output.append(hex(rNum))
-
+            output.append("0x" + "{:02x}".format(rNum).upper())
+        
         # Return output
         return output

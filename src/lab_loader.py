@@ -52,4 +52,4 @@ class LabLoader(object):
                     userInput = int(input("Enter the desired lab number to begin: "))
                     return labs[userInput - 1]["import_class"].lab(self)
                 except:
-                    pass
+                    raise
