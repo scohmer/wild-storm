@@ -16,10 +16,11 @@ class bin2hex(object):
         # Begin user input validation
         while len(flagData) < 3:
             num = NumberLabCore.main(self, "bin", "hex")
-            if (userInput := input(f"Convert {num[0]} to hexadecimal: 0x").upper()) == str(num[1]):
-                flagData.append(int(userInput))
+            if (userInput := input(f"Convert {num[0]} to hexadecimal: 0x").upper()) == str(num[1])[2:]:
+                flagData.append(int(userInput.lower(), 16))
             else:
                 print("Try again")
+                print(userInput, num[1])
 
         # Return flag
         return print(f"Your flag is: {NumberLabFlagManager.main(self, flagData)}")
