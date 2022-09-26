@@ -24,13 +24,13 @@ Following these guidelines should result in a file that looks like this:
 # myepiclab.py
 
 class myepiclab(object):
-  def lab_data(self):
-    title = "My Epic Lab"
-    author = "mpxf"
-    return title, author
+    def lab_data(self):
+        title = "My Epic Lab"
+        author = "mpxf"
+        return title, author
     
-  def lab(self):
-    <lab code here>
+    def lab(self):
+        <lab code here>
 
 <other classes / imports can be placed outside of the main class>
 ```
