@@ -2,6 +2,8 @@
 import random
 import sys
 
+from labs.bin2dec import Bin2Dec
+
 # Conversion methods
 def decimalToBinary(n):
 	return bin(n)[2:].replace("0b", "").zfill(8)
@@ -38,4 +40,5 @@ def main(mode = "btd"):
 
 # Only run standalone
 if __name__ == '__main__':
-	main(*sys.argv[1:])
+	Bin2Dec().lab()
+	#main(*sys.argv[1:])
