@@ -5,3 +5,5 @@ src/__pycache__/lab_loader.cpython-310.pyc
 labs/__pycache__/hex2dec.cpython-310.pyc
 labs/__pycache__/bin2hex.cpython-310.pyc
 labs/__pycache__/hex2bin.cpython-310.pyc
+labs/__pycache__/dec2bin.cpython-310.pyc
+labs/__pycache__/dec2hex.cpython-310.pyc
