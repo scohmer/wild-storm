@@ -20,7 +20,6 @@ class bin2hex(object):
                 flagData.append(int(userInput.lower(), 16))
             else:
                 print("Try again")
-                print(userInput, num[1])
 
         # Return flag
         return print(f"Your flag is: {NumberLabFlagManager.main(self, flagData)}")
