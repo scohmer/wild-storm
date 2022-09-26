@@ -1,7 +1,7 @@
 from src.num.numlabcore import NumberLabCore
 from src.num.numlabflag import NumberLabFlagManager
 
-class bin2dec(object):
+class bin2hex(object):
     # Lab data function
     def lab_data(self):
         title = "Binary to Hexadecimal"
