@@ -1,11 +1,14 @@
 from src.num.numlabcore import NumberLabCore
 from src.num.numlabflag import NumberLabFlagManager
 
-class Bin2Dec(object):
-    def __init__(self, *args, **kwargs):
-        self.title = "Binary to Decimal"
-        self.author = "Sean Cohmer, Cooper Violette"
+class bin2dec(object):
+    # Lab data function
+    def lab_data(self):
+        title = "Binary to Decimal"
+        author = "Sean Cohmer, Cooper Violette"
+        return title, author
 
+    # Lab function
     def lab(self):
         # Initialize flag output check
         flagData = []
