@@ -1,4 +1,5 @@
-from src.numlabcore import NumberLabCore
+from src.num.numlabcore import NumberLabCore
+from src.num.numlabflag import NumberLabFlagManager
 
 class Bin2Dec(object):
     def __init__(self, *args, **kwargs):
@@ -18,6 +19,6 @@ class Bin2Dec(object):
                 print("Try again")
 
         # Return flag
-        return print(f"Your flag is: {hex(sum(flagData))}")
+        return print(f"Your flag is: {NumberLabFlagManager.main(self, flagData)}")
         
 

@@ -1,2 +1,3 @@
 labs/__pycache__/bin2dec.cpython-310.pyc
-src/__pycache__/numlabcore.cpython-310.pyc
+src/num/__pycache__/numlabcore.cpython-310.pyc
+src/num/__pycache__/numlabflag.cpython-310.pyc
