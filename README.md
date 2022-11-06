@@ -34,3 +34,5 @@ class myepiclab(object):
 
 <other classes / imports can be placed outside of the main class>
 ```
+
+Minor update.
